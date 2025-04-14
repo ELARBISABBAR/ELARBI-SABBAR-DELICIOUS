@@ -12027,6 +12027,10 @@ i {
   width: 25rem;
   height: 14rem;
 }
+.parent:hover {
+  color: white;
+  background-color: #ed9750;
+}
 
 .child {
   display: flex;
@@ -12063,6 +12067,42 @@ i {
 
 .restau {
   color: #fd7e14;
+}
+
+.display {
+  display: flex;
+  gap: 10px;
+}
+
+h5:hover, .h5:hover {
+  color: #fd7e14;
+}
+
+.grey {
+  color: grey;
+}
+
+.para-grey {
+  color: grey;
+  font-size: 16px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.grid-direction {
+  display: flex;
+  gap: 20px;
+  margin-top: 150px;
 }
 
 /*# sourceMappingURL=app.css.map */
