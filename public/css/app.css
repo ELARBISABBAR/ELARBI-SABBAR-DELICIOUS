@@ -11896,13 +11896,12 @@ img {
   inset: 90px 64px 64px 64px;
   color: white;
 }
-
-span {
-  color: #ffb03b;
+.melange p {
+  padding-inline: 20rem;
 }
 
-p {
-  padding-inline: 20rem;
+.org {
+  color: #ffb03b;
 }
 
 .btn {
@@ -11924,6 +11923,69 @@ p {
 }
 .same:hover {
   background-color: #ffb03b;
+}
+
+.orange-video {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+}
+.orange-video img {
+  display: block;
+  max-width: 100%;
+}
+.orange-video .start-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: white;
+  background-color: #ffb03b;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.orange-video .section-main {
+  display: flex;
+  padding-top: 20px;
+}
+
+i {
+  font-size: smaller;
+}
+
+.big-about {
+  color: #444444;
+  display: flex;
+  padding-top: 70px;
+  padding-inline: 90px;
+  gap: 30px;
+  background-color: #fffaf3;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 30px;
+}
+
+.ule {
+  display: flex;
+  flex-direction: column;
+}
+.ule ul {
+  margin-right: 250px;
+}
+.ule i {
+  color: #fd7e14;
 }
 
 /*# sourceMappingURL=app.css.map */
