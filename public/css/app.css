@@ -12103,6 +12103,30 @@ h5:hover, .h5:hover {
   display: flex;
   gap: 20px;
   margin-top: 150px;
+  padding-inline: 20px;
+}
+
+.betwen {
+  display: flex;
+  gap: 10rem;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.rowz {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.parag {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.oringe:hover {
+  color: #fd7e14;
 }
 
 /*# sourceMappingURL=app.css.map */
