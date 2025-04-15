@@ -12264,4 +12264,78 @@ h5:hover, .h5:hover {
   margin-top: 3 0px;
 }
 
+.map {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.local {
+  display: flex;
+  gap: 20px;
+}
+
+.bi-geo-alt {
+  font-size: 30px;
+  color: #fd7e14;
+}
+
+.bi-envelope {
+  font-size: 30px;
+  color: #fd7e14;
+}
+
+.bi-telephone {
+  font-size: 30px;
+  color: #fd7e14;
+}
+
+.touch {
+  padding-left: 20px;
+}
+
+.media {
+  padding-left: 20px;
+}
+
+.shadow {
+  background-color: #ffffff;
+  width: 400px;
+  margin-top: 30px;
+  padding-top: 40px;
+  margin-left: 30px;
+}
+
+.flex-display {
+  display: flex;
+}
+
+.name-mail {
+  width: 30rem;
+  height: 45px;
+}
+
+.inpt-10 {
+  display: flex;
+  gap: 30px;
+  padding-left: 58px;
+}
+
+.inpt-0 {
+  width: 62rem;
+  height: 45px;
+}
+
+.msg {
+  padding-left: 58px;
+}
+
+.inpt-3 {
+  width: 62rem;
+  height: 20rem;
+}
+
+.form-big {
+  padding-top: 40px;
+}
+
 /*# sourceMappingURL=app.css.map */
