@@ -12129,4 +12129,54 @@ h5:hover, .h5:hover {
   color: #fd7e14;
 }
 
+.book {
+  display: flex;
+  padding-inline: 70px;
+  margin-top: 100px;
+}
+
+.right-flex {
+  background-color: #f9f9f9;
+  padding-top: 80px;
+  position: relative;
+  height: 460px;
+  width: 1000px;
+}
+
+.inpt-1 {
+  display: flex;
+  gap: 100px;
+  padding-inline: 60px;
+}
+.inpt-1 input {
+  width: 250px;
+  height: 40px;
+}
+
+.subjct {
+  display: flex;
+  gap: 100px;
+  padding-inline: 60px;
+}
+
+.inpt-2 {
+  width: 59.5rem;
+  height: 150px;
+}
+
+.tbl {
+  background-color: #f9f9f9;
+}
+
+.bk-tbl {
+  color: #ffffff;
+  background: #ffb03b;
+  border: 0;
+  padding: 14px 60px;
+  transition: 0.4s;
+  border-radius: 4px;
+  position: absolute;
+  right: 450px;
+}
+
 /*# sourceMappingURL=app.css.map */
