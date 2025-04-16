@@ -11926,6 +11926,14 @@ img {
   background-color: #ffb03b;
 }
 
+@media (max-width: 376px) {
+  .navbar {
+    width: 375px;
+  }
+  .navbar .links a {
+    display: none;
+  }
+}
 .orange-video {
   position: relative;
   display: inline-block;
@@ -11972,6 +11980,23 @@ i {
   height: 560px;
 }
 
+h1, .h1 {
+  font-family: "Satisfy", cursive;
+}
+
+h2, .h2 {
+  font-family: "Satisfy", cursive;
+}
+
+h3, .h3 {
+  font-family: "Satisfy", cursive;
+  font-weight: bold;
+}
+
+h4, .h4 {
+  font-family: "Satisfy", cursive;
+}
+
 .information {
   display: flex;
   flex-direction: column;
@@ -11990,6 +12015,12 @@ i {
   color: #fd7e14;
 }
 
+@media (max-width: 376px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .our {
   display: flex;
   flex-direction: column;
@@ -12223,7 +12254,7 @@ h5:hover, .h5:hover {
 }
 
 .white-parnt {
-  background-color: #f5ebeb;
+  background-color: #fbfbfb;
   width: fit-content;
   position: absolute;
   padding-left: 10px;
@@ -12242,7 +12273,7 @@ h5:hover, .h5:hover {
 }
 
 .white-sarah {
-  background-color: #f5ebeb;
+  background-color: #fbfbfb;
   width: fit-content;
   position: absolute;
   padding-left: 10px;
@@ -12258,7 +12289,7 @@ h5:hover, .h5:hover {
 }
 
 .white-anderson {
-  background-color: #f5ebeb;
+  background-color: #fbfbfb;
   width: fit-content;
   position: absolute;
   padding-left: 10px;
