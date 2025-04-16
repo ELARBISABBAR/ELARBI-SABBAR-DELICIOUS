@@ -12354,6 +12354,18 @@ h5:hover, .h5:hover {
   margin-top: 680px;
 }
 
+.scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #fd7e14;
+  color: white;
+  border-radius: 10px;
+  font-size: 24px;
+}
+
 .footers {
   margin-top: 90px;
 }
